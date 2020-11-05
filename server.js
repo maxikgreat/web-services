@@ -11,6 +11,7 @@ app.use(express.json());
 app.use(require('./routes/info'));
 app.use(require('./routes/hello'));
 app.use(require('./routes/store'));
+app.use(require('./routes/parse'));
 
 app.listen(PORT, (err) => {
   if (err) throw err;
