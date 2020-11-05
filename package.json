@@ -1,0 +1,24 @@
+{
+  "name": "web-services",
+  "version": "1.0.0",
+  "description": "Repo for university",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxikgreat/web-services.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxikgreat/web-services/issues"
+  },
+  "homepage": "https://github.com/maxikgreat/web-services#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
