@@ -1,15 +1,16 @@
 const express = require('express');
 
-const infoRouter = require('./routes/info');
-const helloRouter = require('./routes/hello');
-
 const PORT = 3001;
 
 const app = express();
 
 app.use(express.json());
-app.use(infoRouter);
-app.use(helloRouter);
+
+// routes
+
+app.use(require('./routes/info'));
+app.use(require('./routes/hello'));
+app.use(require('./routes/store'));
 
 app.listen(PORT, (err) => {
   if (err) throw err;
