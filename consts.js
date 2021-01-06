@@ -1,0 +1,1 @@
+const PORT = 3001;const LOGIN = 'admin';const PASSWORD = '123';const PRIVATE_KEY = 'someSecretKey';module.exports = {PORT, LOGIN, PASSWORD, PRIVATE_KEY};
